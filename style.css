@@ -1,0 +1,34 @@
+/* style.css */
+
+body {
+    background-color: #e0ebe6ee;
+    color:#244141;
+    text-align: center;
+    font-family: 'Courier New', Monaco, Arial;
+    font-size:26px;
+    letter-spacing: -1px;
+}
+
+.link {
+    color: black;
+    font-weight: 600;
+}
+
+.desc {
+    background-color:#244141 ;
+    color: white;
+}
+
+.desc, .list {
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.header {
+    text-decoration: underline;
+}
+
+.content {
+    font-weight:500;
+}
