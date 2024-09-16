@@ -5,24 +5,49 @@ body {
     color:#244141;
     text-align: center;
     font-family: 'Courier New', Monaco, Arial;
-    font-size:26px;
+    font-size:24px;
     letter-spacing: -1px;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+h1, h2 {
+    padding: 16px;
+}
+
+.recipe-links {
+    padding: 8px;
 }
 
 .link {
     color: black;
     font-weight: 600;
+    display:inline-block;   
+    padding: 8px;
 }
 
+img {
+    max-width: 325px;
+    height: auto;
+    margin: 8px auto;
+
+
+}
 .desc {
     background-color:#244141 ;
     color: white;
+    padding: 8px;
 }
 
 .desc, .list {
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
+}
 
+.tagline, .detail, .header, .content {
+    margin: 8px auto;
 }
 
 .header {
